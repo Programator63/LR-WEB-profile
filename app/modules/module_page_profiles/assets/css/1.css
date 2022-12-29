@@ -1,0 +1,80 @@
+.profile .servers {
+  display: flex;
+  justify-content: center;
+}
+.profile .servers .servers_link {
+  font-size: 1.1em;
+  background: var(--sidebar-color);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 2.5px;
+  transition: 0.2s;
+}
+.profile .servers .servers_link:hover {
+  color: var(--span-color);
+  background: var(--hover);
+}
+.profile .user {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 350px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.profile .user .user_info {
+  display: flex;
+  -webkit-backdrop-filter: brightness(0.9);
+          backdrop-filter: brightness(0.9);
+  padding: 10px;
+}
+.profile .user .user_info a {
+  margin-right: 10px;
+}
+.profile .user .user_info a img {
+  width: 75px;
+  border-radius: 50%;
+}
+.profile .user .user_info > div > span {
+  font-size: 1.2em;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.profile .user .user_stats {
+  padding: 10px;
+}
+.profile .user .user_stats .copy {
+  cursor: pointer;
+}
+.profile .user .user_stats .stats {
+  display: flex;
+  align-items: center;
+  -webkit-backdrop-filter: brightness(0.9);
+          backdrop-filter: brightness(0.9);
+  padding: 5px;
+  border-radius: 10px;
+}
+.profile .user .user_stats .stats i {
+  font-size: 5em;
+}
+.profile .user .user_stats .stats div {
+  display: flex;
+  flex-direction: column;
+}
+.profile .user .user_stats .stats div span:last-child {
+  color: var(--custom-text-color);
+}
+.profile .main .pages {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile .main .pages .col {
+  margin: 0;
+}
+.profile .main .pages .link {
+  padding: 15px 5px;
+  text-align: center;
+}/*# sourceMappingURL=1.css.map */

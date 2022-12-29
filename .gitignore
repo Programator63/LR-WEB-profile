@@ -1,0 +1,16 @@
+favicon.ico
+.htaccess
+index.php
+storage/
+fontawesome6/
+app/ext/
+app/includes/
+app/logs/
+app/page/
+app/templates/
+app/module_page_profiles/
+app/1module_page_profiles/
+app/modules/disabled/
+app/modules/module_page_adminpanel
+app/modules/module_page_lk_impulse
+app/modules/module_page_shop.rar

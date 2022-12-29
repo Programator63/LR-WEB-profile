@@ -1,0 +1,61 @@
+.profile
+    .servers
+        display: flex
+        justify-content: center
+        .servers_link
+            font-size: 1.1em
+            background: var(--sidebar-color)
+            border-radius: 10px
+            padding: 5px 10px
+            margin: 0 2.5px
+            transition: 0.2s
+            &:hover
+                color: var(--span-color)
+                background: var(--hover)
+    .user
+        height: fit-content
+        width: 350px
+        margin-top: 10px
+        margin-right: 10px
+        .user_info
+            display: flex
+            backdrop-filter: brightness(0.9)
+            padding: 10px
+            a
+                margin-right: 10px
+                img
+                    width: 75px
+                    border-radius: 50%
+            & > div > span
+                font-size: 1.2em
+                -webkit-line-clamp: 1
+                display: -webkit-box
+                -webkit-box-orient: vertical
+                overflow: hidden
+        .user_stats
+            padding: 10px
+            .copy
+                cursor: pointer
+            .stats
+                display: flex
+                align-items: center
+                backdrop-filter: brightness(0.9)
+                padding: 5px
+                border-radius: 10px
+                i
+                    font-size: 5em
+                div
+                    display: flex
+                    flex-direction: column
+                    span:last-child
+                        color: var(--custom-text-color)
+    .main
+        .pages
+            width: 100%
+            display: flex
+            justify-content: space-evenly
+            .col
+                margin: 0
+            .link
+                padding: 15px 5px
+                text-align: center
